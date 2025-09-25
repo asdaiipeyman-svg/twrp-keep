@@ -1,3 +1,7 @@
+adb reboot bootloader
+fastboot flash boot /path/to/magisk_patched.img
+fastboot rebootadb reboot bootloader
+
 #!/sbin/sh
 
 #################
